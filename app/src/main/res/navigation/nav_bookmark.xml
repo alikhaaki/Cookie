@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/nav_bookmark"
+	    app:startDestination="@id/bookmark_frg">
+	<fragment
+		    android:id="@+id/bookmark_frg"
+		    android:name="com.ali.cookie.feature.bookmark.BookmarkFragment"
+		    android:label="fragment_bbbbbbbbbbbb"
+		    tools:layout="@layout/fragment_bookmark">
+		<action
+			    android:id="@+id/action_bookmark_frg_to_detailFragment2"
+			    app:destination="@id/detailFragment2"/>
+	</fragment>
+	<fragment
+		    android:id="@+id/detailFragment2"
+		    android:name="com.ali.cookie.feature.detail.DetailFragment"
+		    android:label="DetailFragment"/>
+</navigation>

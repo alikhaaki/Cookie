@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    app:cardElevation="4dp"
+	    android:layout_height="370dp"
+	    android:layout_marginLeft="@dimen/margin_standard"
+	    android:layout_marginTop="@dimen/margin_standard"
+	    android:layout_marginRight="@dimen/margin_standard"
+	    android:layout_marginBottom="@dimen/margin_standard"
+	    app:cardCornerRadius="16dp">
+
+	<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+
+		<com.ali.cookie.service.AssistantLoadingFresco
+			    android:id="@+id/image_main"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:scaleType="centerCrop"
+    			    app:roundedCornerRadius="16dp"
+			    app:viewAspectRatio=".9"
+			    tools:src="@drawable/roasted_borocli"/>
+
+
+
+		<TextView
+			    android:id="@+id/text_title"
+			    android:layout_width="match_parent"
+			    android:layout_height="80dp"
+			    android:layout_alignParentBottom="true"
+ 			    android:gravity="center"
+			    android:textSize="20sp"
+			    android:background="#9E000000"
+			    android:text="Fried Borocli"
+			    android:textColor="#fff"/>
+
+
+	</RelativeLayout>
+</androidx.cardview.widget.CardView>

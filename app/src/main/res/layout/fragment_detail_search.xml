@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:id="@+id/relative_detail_search"
+	    android:layout_height="match_parent">
+
+
+	<com.ali.cookie.service.AssistantLoadingFresco
+		    app:viewAspectRatio="1"
+		    android:id="@+id/image_detail_search"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>
+	<TextView
+		    android:layout_centerInParent="true"
+		    android:background="#6ACCCCCC"
+		    android:textSize="40sp"
+		    android:id="@+id/text_detail_search"
+		    android:textColor="#000"
+		    android:gravity="center"
+		    android:fontFamily="@font/gilory_font"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>
+</RelativeLayout>
